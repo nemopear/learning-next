@@ -11,7 +11,7 @@ const index = ({ posts }) => {
                 <meta name="keywords" content="Next.js, JS, React" />
             </Head>
             <Link href='/about'><a>About Page</a></Link>
-            <div class="container">
+            <div className="container">
                 {
                     posts.map(post=> <Post key={post.slug} post={post} />)
                 }
