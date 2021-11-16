@@ -1,11 +1,11 @@
-import Layout from "../components/Layout"
+import Wrapper from "../components/Wrapper"
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <Wrapper>
       <Component {...pageProps} />
-    </Layout>
+    </Wrapper>
   )
 }
 
