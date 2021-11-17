@@ -4,7 +4,9 @@ const Wrapper = ({children}) => {
     return (
         <div>
             <Header />
-            {children}
+            <main className="relative z-10">
+                {children}
+            </main>
         </div>
     );
 }
