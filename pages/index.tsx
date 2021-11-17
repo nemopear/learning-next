@@ -46,7 +46,7 @@ const index = ({ posts }) => {
                 </div>
             </div>
 
-            <div className="container mx-auto">
+            <div className="lg:container md:container mx-auto">
                 <div className="max-w-2xl mx-auto py-16 sm:py-24  lg:max-w-7xl">
                     <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3">
                         {
