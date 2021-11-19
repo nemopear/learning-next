@@ -15,5 +15,5 @@ module.exports = {
       // your project has ESLint errors.
       ignoreDuringBuilds: true,
   },
-  target: "experimental-serverless-trace"
+  target: "serverless"
 }
